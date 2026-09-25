@@ -1,0 +1,105 @@
+HOW TO INSTALL THIS SKILL
+=========================
+
+This adds AI image and video prompting expertise to Claude Code. Once installed,
+Claude writes prompts for Nano Banana, Kling and similar using a method that has
+been tested across several hundred real generations.
+
+You need Claude Code installed first. If you don't have it:
+https://claude.com/claude-code
+
+
+-------------------------------------------------
+STEP 1 — FIND YOUR SKILLS FOLDER
+-------------------------------------------------
+
+WINDOWS
+  Press Windows key + R, type this, press Enter:
+
+      %USERPROFILE%\.claude\skills
+
+  If a window opens, you're there.
+  If it says the folder doesn't exist, go to %USERPROFILE%\.claude
+  and create a new folder called exactly:  skills
+
+
+MAC
+  In Finder press Shift + Cmd + G, type this, press Enter:
+
+      ~/.claude/skills
+
+  If it says the folder doesn't exist, go to ~/.claude
+  and create a new folder called exactly:  skills
+
+
+-------------------------------------------------
+STEP 2 — COPY THE FOLDER IN
+-------------------------------------------------
+
+Unzip the file you were sent. You'll get a folder called:
+
+      product-image-prompts
+
+Drag that WHOLE FOLDER into the skills folder from Step 1.
+
+When you're done it should look like this:
+
+      .claude
+        └── skills
+              └── product-image-prompts
+                    ├── SKILL.md
+                    ├── INSTALL.txt
+                    └── references
+                          ├── ads-and-lifestyle.md
+                          ├── cad-to-photo.md
+                          ├── lighting.md
+                          ├── recolour.md
+                          └── video.md
+
+IMPORTANT: SKILL.md must sit directly inside the product-image-prompts folder.
+If you end up with product-image-prompts/product-image-prompts/SKILL.md
+(a folder inside a folder), move things up one level.
+
+
+-------------------------------------------------
+STEP 3 — RESTART CLAUDE CODE
+-------------------------------------------------
+
+Close Claude Code completely and open it again. That's it.
+
+
+-------------------------------------------------
+STEP 4 — CHECK IT WORKED
+-------------------------------------------------
+
+Start a new conversation and type:
+
+      write me a nano banana prompt for a jet ski rental ad
+
+Claude should ask what it's for and where it will run, then give you a prompt
+in a copy-paste block with a character count. If it does, it's working.
+
+You can also type  /product-image-prompts  to call it directly.
+
+
+-------------------------------------------------
+HOW TO USE IT
+-------------------------------------------------
+
+Just describe what you want in plain English. You don't need to know any of
+this yourself — the skill tells Claude how to do it.
+
+Two things that make the biggest difference to your results:
+
+1. SAY WHAT THE IMAGE IS FOR.
+   "a hero banner for our website" or "a Google Display ad, landscape"
+   gets a far better prompt than "a jet ski photo".
+
+2. UPLOAD YOUR REFERENCE IMAGES.
+   If you're reproducing a real product, a logo, or a specific look —
+   upload it. Upload several angles if you have them. This matters more
+   than anything you can write.
+
+When a generation comes back wrong, don't start over. Show Claude the image
+and say what's wrong with it. Fixing one thing at a time works far better
+than rewriting the whole prompt.
