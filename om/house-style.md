@@ -23,10 +23,9 @@ sub-assemblies). Every prompt says the placeholder is **not** the product colour
 - **If it's a threaded fastener, it's polished stainless. If it's structural metal, it's painted.**
   Only bolt heads, nuts, washers and exposed thread are stainless. Clamp collar bodies, saddles, spacers,
   standoffs, tabs, brackets and straps are always painted, "no matter how small or hardware-like it looks".
-- **Stainless spec:** bright silver metallic, clean slightly reflective sheen, crisp specular highlight.
-  NEVER black, dark, powder-coated or dull zinc.
-  *Two older prompts (crash bars rendered, crash bars → white from reference) still say "zinc-plated
-  silver". Every newer prompt says polished stainless.*
+- **Polished stainless, only ever.** Every OM fastener in every prompt is polished stainless steel.
+  Never zinc-plated, never black, never painted. Spec: bright silver metallic, clean slightly
+  reflective sheen, crisp specular highlight. NEVER black, dark, powder-coated or dull zinc.
 - **Size:** small, compact, sitting flush. Roughly **M8, ~13mm across the flats**. Test: if a bolt
   reads as a prominent feature, it's far too big.
 - **How to identify hardware in the CAD:**

@@ -10,7 +10,6 @@ Mandrel-bent tubular crash bars with bolted clamp-collar cross brace, textured b
 - **Which version?**
   - **Non-rendered:** use it when the upload is a *CAD viewport screenshot* showing tessellation/facet lines on the tubes. It tells the model those lines are software artifacts, not welds.
   - **Rendered:** use it when the upload is a clean CAD render.
-- The **Rendered** version calls fasteners *zinc-plated silver*, while every other OM prompt says *polished stainless*. Change it to stainless if that's the current standard.
 - The plaque goes on the lower horizontal cross-brace tube. Paste the add-on at the end of either version.
 
 ### What this prompt is guarding against
@@ -121,7 +120,7 @@ RENDER QUALITY: photoreal, physically accurate materials, tack sharp, rich tonal
 
 ## Version B — Rendered CAD
 
-**5,446 characters**
+**5,616 characters**
 
 ```text
 Turn the uploaded CAD render into a photorealistic studio product photograph of the same motorcycle crash bars / engine guards. This is a re-render of the exact image provided, not a new shot.
@@ -134,11 +133,11 @@ GEOMETRY: preserve every tube, bend, curve, junction, mounting tab, bracket, foo
 
 HARDWARE — TRANSFER FROM THE CAD ONLY, NEVER GENERATE: hardware is copied one-to-one from the CAD, in both directions. Do NOT invent or add any bolt, nut, washer, or fastener the CAD does not show — AND do NOT delete, omit, hide, or clean away any bolt, nut, washer, clamp, or collar assembly the CAD DOES show. Every fastener visible in the CAD must appear in the output, in the same position, the same quantity, and the same style; every location the CAD leaves bare must stay bare.
 
-Specifically: where the CAD shows clamp/collar assemblies joining the cross-brace tube to the main bars, reproduce those exact assemblies in those exact positions — but split the finish correctly. The CLAMP COLLAR BODIES (the metal saddle/strap pieces wrapping the tube) are structural parts of the product and are finished in the SAME textured black powder coat as the tubes — NOT silver, NOT zinc, NOT bare metal. ONLY the fasteners themselves — the bolt heads, nuts, and washers — are bright zinc-plated silver. Black collar bodies, silver bolts.
+Specifically: where the CAD shows clamp/collar assemblies joining the cross-brace tube to the main bars, reproduce those exact assemblies in those exact positions — but split the finish correctly. The CLAMP COLLAR BODIES (the metal saddle/strap pieces wrapping the tube) are structural parts of the product and are finished in the SAME textured black powder coat as the tubes — NOT silver, NOT zinc, NOT bare metal. ONLY the fasteners themselves — the bolt heads, nuts, and washers — are polished STAINLESS STEEL: bright silver metallic with a clean, slightly reflective sheen and a crisp specular highlight. Never zinc, never black, never powder-coated. Black collar bodies, stainless bolts.
 
 Count the fasteners in the CAD before rendering, then confirm the output has the same count in the same places — no more, no fewer.
 
-MATERIAL: mandrel-bent tubular steel, TIG-welded, with laser-cut steel mounting tabs and feet, finished in a textured black powder coat. The coating has a fine, even, sandy micro-grain across the whole surface — low gloss, roughly 15 gloss units, scattering light into soft broad highlights rather than sharp mirror reflections. Deep neutral black, no blue or brown cast. The grain must be clearly readable so it reads as a real powder-coated part, not a smooth 3D surface. Zinc-plated FASTENERS ONLY — bolt heads, nuts, and washers — keep their bright metallic silver finish. Every other component, including clamp collars, saddles, brackets, tabs, and feet, is powder coated black like the tubes. If a part is structural metal rather than a threaded fastener, it is black.
+MATERIAL: mandrel-bent tubular steel, TIG-welded, with laser-cut steel mounting tabs and feet, finished in a textured black powder coat. The coating has a fine, even, sandy micro-grain across the whole surface — low gloss, roughly 15 gloss units, scattering light into soft broad highlights rather than sharp mirror reflections. Deep neutral black, no blue or brown cast. The grain must be clearly readable so it reads as a real powder-coated part, not a smooth 3D surface. Polished STAINLESS STEEL FASTENERS ONLY — bolt heads, nuts, and washers — bright silver metallic with a crisp specular highlight. Every other component, including clamp collars, saddles, brackets, tabs, and feet, is powder coated black like the tubes. If a part is structural metal rather than a threaded fastener, it is black.
 
 WELDS: a continuous TIG weld bead wraps every joint where one tube meets another tube, and every joint where a flat mounting tab, bracket, or foot is welded onto a tube — slightly raised, evenly spaced stack-of-dimes ripples about 3mm wide, fully encircling each tubular junction exactly as a real welder laid it, catching a soft highlight along each ripple. Do NOT add weld beads mid-span along the smooth straight or curved runs of tube — welds appear ONLY at actual tube-to-tube junctions and at tab/bracket/foot connections. The clamped cross-brace connections are BOLTED, not welded — render their hardware and leave those joints clean with no weld bead.
 

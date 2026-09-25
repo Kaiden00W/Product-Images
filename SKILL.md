@@ -35,9 +35,10 @@ prompts lives in `om/`:
    character count, plus the upload order it lists.
 3. Go through its **"Before you paste"** notes with the user. Several prompts hard-code counts
    and features for one specific part. Re-check them against the CAD in front of you.
-4. A new OM product gets adapted from the closest existing prompt using the shared blocks in
+4. **OM fasteners are polished stainless steel, only ever.** Never zinc, black or painted.
+5. A new OM product gets adapted from the closest existing prompt using the shared blocks in
    `om/house-style.md`. Never invent new wording for colours, hardware, welds or the OM plaque.
-5. When a generation fails, diagnose from the image and change the one responsible line.
+6. When a generation fails, diagnose from the image and change the one responsible line.
 
 The OM prompts run longer than the length bands below because every paragraph fixed a real
 failure. Don't trim them unless you've tested the trimmed version.
