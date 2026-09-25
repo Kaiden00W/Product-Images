@@ -8,6 +8,7 @@ Nano Banana Pro, Kling, Veo, Seedance, Higgsfield and similar.
 
 - **Fidelity mode** — CAD renders → product photos, recolouring, exact logo reproduction
 - **Creative mode** — ads, hero images, lifestyle/marketing imagery, short video
+- **OM library** — [`om/`](om/README.md): a year of curated Outback Motortek product prompts (Nano Banana Pro on Higgsfield)
 
 ## Contents
 
@@ -19,6 +20,7 @@ Nano Banana Pro, Kling, Veo, Seedance, Higgsfield and similar.
 | `references/ads-and-lifestyle.md` | Ads, hero images, lifestyle shoots |
 | `references/lighting.md` | Exposure, backgrounds, grounding, lighting |
 | `references/video.md` | Kling / Veo / Seedance video prompts |
+| `om/` | **Outback Motortek** curated prompt library: CAD → photo and recolour prompts per product, plus house style |
 | `INSTALL.txt` | Step-by-step install guide |
 
 ## Install

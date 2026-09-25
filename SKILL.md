@@ -7,7 +7,10 @@ description: >-
   CREATIVE work (ads, hero images, lifestyle and marketing imagery, short video).
   Use when the user mentions Nano Banana, NBP, Kling, an image or video prompt, a CAD
   render, a product photo, a recolour, an ad creative, a hero image, or a marketing
-  visual. Also use when a generation came back wrong and needs diagnosing.
+  visual. Also use when a generation came back wrong and needs diagnosing. For
+  Outback Motortek (OM) products — skid plates, crash bars, tail tidies, racks,
+  protection/luggage/rear combos, colourway recolours — use the curated OM library.
+  Default platform: Nano Banana Pro on Higgsfield.
 ---
 
 # Image & Video Prompting
@@ -15,6 +18,29 @@ description: >-
 Built from several hundred real iterations across product photography, brand hero
 images, logo work and scroll-driven video. Every rule here exists because something
 failed without it.
+
+**Default platform:** Nano Banana Pro, run on Higgsfield, unless the user says otherwise.
+
+---
+
+## OUTBACK MOTORTEK (OM) PRODUCTS — CHECK THIS FIRST
+
+If the job is an OM product (Outback Motortek, OM, or any of: skid plate, crash bars, tail tidy,
+Reckless rack, pannier rack, rear combo, protection combo, KTM combo, luggage combo, or an
+LCB/UCB/PC/UPC recolour), **do not write a prompt from scratch.** A year of curated, proven
+prompts lives in `om/`:
+
+1. Read `om/README.md` and find the product in the index.
+2. Read that product's file. Deliver its prompt **verbatim** in a copy-paste block with its
+   character count, plus the upload order it lists.
+3. Go through its **"Before you paste"** notes with the user. Several prompts hard-code counts
+   and features for one specific part. Re-check them against the CAD in front of you.
+4. A new OM product gets adapted from the closest existing prompt using the shared blocks in
+   `om/house-style.md`. Never invent new wording for colours, hardware, welds or the OM plaque.
+5. When a generation fails, diagnose from the image and change the one responsible line.
+
+The OM prompts run longer than the length bands below because every paragraph fixed a real
+failure. Don't trim them unless you've tested the trimmed version.
 
 ---
 
@@ -114,6 +140,12 @@ Always pair the suppression with the correct amount.
 **Creative mode**
 - `references/ads-and-lifestyle.md` — ads, hero images, lifestyle and location
   shoots, people, real logos in scenes, text and safe areas, ad formats
+
+**Outback Motortek**
+- `om/README.md` — index of every curated OM prompt, by product
+- `om/house-style.md` — OM colours (signal red #CC1611, KTM orange #F35B04, neutral white),
+  finishes, backgrounds, OM plaque block, hardware and weld rules
+- `om/cad-to-photo/*.md`, `om/recolour/*.md` — the prompts themselves
 
 **Both**
 - `references/lighting.md` — exposure, backgrounds, grounding, cinematic lighting
